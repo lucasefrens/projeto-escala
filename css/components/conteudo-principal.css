@@ -1,0 +1,11 @@
+.conteudo-principal {
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px 24px;
+}
+
+@media (max-width: 500px) {
+  .conteudo-principal {
+    padding: 20px 12px;
+  }
+}

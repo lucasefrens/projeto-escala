@@ -1,0 +1,32 @@
+.legenda-principal {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.legenda-principal > .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.legenda-principal > .item > .cor {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+}
+
+.legenda-principal > .item > .cor.-normal {
+  background: #43a047;
+}
+
+.legenda-principal > .item > .cor.-plantao {
+  background: #e53935;
+}
+
+.legenda-principal > .item > .cor.-hoje {
+  background: #1976d2;
+}

@@ -1,0 +1,13 @@
+.dias-semana {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background: #f3f5f7;
+}
+
+.dias-semana span {
+  text-align: center;
+  padding: 14px 0;
+  font-weight: bold;
+  color: #546e7a;
+  font-size: 0.82rem;
+}

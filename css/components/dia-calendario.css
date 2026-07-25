@@ -1,0 +1,52 @@
+.dia-calendario {
+  aspect-ratio: 1;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.2s;
+  user-select: none;
+
+  background: #43a047;
+  color: white;
+}
+
+.dia-calendario:hover {
+  transform: scale(1.08);
+}
+
+.dia-calendario.-plantao {
+  background: #e53935;
+}
+
+/* ===========================
+   HOJE
+=========================== */
+
+.dia-calendario.-hoje {
+  border: 4px solid #1976d2;
+}
+
+/* Hoje + Plantão */
+
+.dia-calendario.-hoje.-plantao {
+  border: 4px solid #1565c0;
+}
+
+/* ===========================
+   DIAS FORA DO MÊS
+=========================== */
+
+.dia-calendario.-vazio {
+  background: transparent;
+  cursor: default;
+}
+
+.dia-calendario.-vazio:hover {
+  transform: none;
+}
